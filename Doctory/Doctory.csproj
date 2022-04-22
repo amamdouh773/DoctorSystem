@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D17BF95-5397-4BEE-B53A-6489805D676F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Doctory</RootNamespace>
+    <AssemblyName>Doctory</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business-logic-layer\doctorBLL.cs" />
+    <Compile Include="Business-logic-layer\loginBLL.cs" />
+    <Compile Include="Business-logic-layer\patientBLL.cs" />
+    <Compile Include="DAL\loginDAL.cs" />
+    <Compile Include="DAL\patinetDAL.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\schedule.Designer.cs">
+      <DependentUpon>schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\doctor_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\doctor_module.Designer.cs">
+      <DependentUpon>doctor_module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\doctor_profile_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\doctor_profile_module.Designer.cs">
+      <DependentUpon>doctor_profile_module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\login_field.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\login_field.Designer.cs">
+      <DependentUpon>login_field.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\myprofile.cs" />
+    <Compile Include="UI\mySchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\mySchedule.Designer.cs">
+      <DependentUpon>mySchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\patient_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\patient_module.Designer.cs">
+      <DependentUpon>patient_module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Patient_profile_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Patient_profile_module.Designer.cs">
+      <DependentUpon>Patient_profile_module.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\schedule.resx">
+      <DependentUpon>schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\doctor_module.resx">
+      <DependentUpon>doctor_module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\doctor_profile_module.resx">
+      <DependentUpon>doctor_profile_module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\login_field.resx">
+      <DependentUpon>login_field.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\mySchedule.resx">
+      <DependentUpon>mySchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\patient_module.resx">
+      <DependentUpon>patient_module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Patient_profile_module.resx">
+      <DependentUpon>Patient_profile_module.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ios-filled-500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-medical-doctor-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="the-common-cold-2007171_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="the-common-cold-2007171 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74167430_2702350386492211_6680870406871580672_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-planner-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\doctor.png" />
+    <Content Include="Resources\icons8-medical-doctor-100.png" />
+    <Content Include="Resources\patient.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

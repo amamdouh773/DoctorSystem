@@ -1,0 +1,43 @@
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\bin\x86\Debug\Doctory.exe.config
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\bin\x86\Debug\Doctory.exe
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.Properties.Resources.resources
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.patient_module.resources
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.Patient_profile_module.resources
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.csproj.GenerateResource.Cache
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.exe
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.pdb
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\bin\x86\Debug\Doctory.pdb
+C:\Users\EIX\documents\visual studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.csprojResolveAssemblyReference.cache
+C:\Users\EIX\Documents\Visual Studio 2013\Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.login_field.resources
+C:\Users\Ahmed\Doctory\Doctory\bin\x86\Debug\Doctory.exe.config
+C:\Users\Ahmed\Doctory\Doctory\bin\x86\Debug\Doctory.exe
+C:\Users\Ahmed\Doctory\Doctory\bin\x86\Debug\Doctory.pdb
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.Properties.Resources.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.UI.doctor_module.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.UI.doctor_profile_module.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.UI.login_field.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.UI.patient_module.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.UI.Patient_profile_module.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.csproj.GenerateResource.cache
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.exe
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.pdb
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.UI.Appointments.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.UI.mySchedule.resources
+C:\Users\Ahmed\Doctory\Doctory\obj\x86\Debug\Doctory.csprojAssemblyReference.cache
+D:\My-Projects\Doctory\Doctory\bin\x86\Debug\Doctory.exe.config
+D:\My-Projects\Doctory\Doctory\bin\x86\Debug\Doctory.exe
+D:\My-Projects\Doctory\Doctory\bin\x86\Debug\Doctory.pdb
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.csproj.AssemblyReference.cache
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.Properties.Resources.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.Appointments.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.doctor_module.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.doctor_profile_module.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.login_field.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.mySchedule.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.patient_module.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.UI.Patient_profile_module.resources
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.csproj.GenerateResource.cache
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.csproj.CoreCompileInputs.cache
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.exe
+D:\My-Projects\Doctory\Doctory\obj\x86\Debug\Doctory.pdb

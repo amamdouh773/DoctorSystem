@@ -1,0 +1,9 @@
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\bin\Debug\ADMIN_PAGE_hospital.exe.config
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\bin\Debug\ADMIN_PAGE_hospital.exe
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\bin\Debug\ADMIN_PAGE_hospital.pdb
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\obj\Debug\ADMIN_PAGE_hospital.admin_page.resources
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\obj\Debug\ADMIN_PAGE_hospital.Properties.Resources.resources
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\obj\Debug\ADMIN_PAGE_hospital.csproj.GenerateResource.cache
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\obj\Debug\ADMIN_PAGE_hospital.exe
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\obj\Debug\ADMIN_PAGE_hospital.pdb
+C:\Users\ziade\OneDrive\Desktop\ADMIN_PAGE_hospital\ADMIN_PAGE_hospital\obj\Debug\ADMIN_PAGE_hospital.csprojAssemblyReference.cache
